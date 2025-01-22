@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Manrope';
+    src: url('fonts/manrope-extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+@font-face{
+    font-family: 'DotGothic16';
+    src: url('fonts/DotGothic16-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  *{
+      padding: 0;
+      margin: 0;
+  }
+  .container{
+      width: 1310px;
+      margin: 0 auto;
+  }
+  .logo{
+      font-family: 'Manrope' ;
+      font-weight: 800;
+      font-size: 36px;
+  }
+ .nav p{
+    font-family: 'Manrope' ;
+    font-weight: 600;
+  }
+  .nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+    
+  }
+  ul{
+      list-style: none;
+  }
+  .header ul{
+      display: flex;
+      flex-direction: row;
+      writing-mode: vertical-lr ;
+      gap: 40px;
+   
+  }
+  .leftNav{
+
+transform: translateY(-50%);
+font-family: 'Manrope' ;
+font-weight: 300;
+font-size: 14px;
+  }
+h1{
+    font-family: 'DotGothic16';
+    font-size: 45px;
+}
+ .header{
+    height: 700px;
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ }
+ .card{
+width: 281px;
+height: 281px;
+background-color: rgb(242, 241, 241);
+display: flex;
+justify-content: center;
+align-items:center;
+
+ }
+ .card img{
+     width: 260px;
+     border-radius: 10px;
+     border: 1px solid black;
+ }
+ .box p{
+    font-family: 'Manrope';
+font-weight: 800;
+margin-top: 10px;
+ }
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 350px;
+}
+#about{
+    font-size: 30px;
+  font-family: 'Manrope';
+  font-weight: 800;
+}
+.about{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+.numanova{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+}
+.img{
+    width: 198px;
+    height: 198px;
+    border-radius: 50%;
+    background-color: rgb(242, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+.info h3{
+    font-family:'Manrope';
+    font-weight: 400;
+    font-size: 30px;
+}
+.info p{
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 200;
+    color: grey ;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+.links p{
+    color:black;
+
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+ .skills{
+    font-size: 14px;
+    font-family: 'Manrope';
+    font-weight: 200;
+    color: grey ;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .bold{
+     font-weight: 800;
+     color: black;
+ }
+ .experience{
+     width: 357px ;
+     height: 257px;
+     border: 1px solid rgb(242, 241, 241) ;
+     display: flex;
+     justify-content: left;
+     align-items:center;
+     border-radius: 15px;
+
+    
+ }
+ .experience ul{
+     margin-left: 40px;
+ }
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+    gap: 100px;
+}
+.apps{
+    display: flex;
+    gap: 70px;
+}
+.footer{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.contact h3{
+    font-size: 30px;
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+.contact p{
+    font-family: 'Manrope' ;
+    font-weight: 600;
+}
+.footer-nmv{
+    padding: 50px;
+}
