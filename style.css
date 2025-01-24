@@ -305,3 +305,89 @@ margin-top: 10px;
     font-size: 14px ;
 }
 }
+/*mobile*/
+@media(min-width:481px) and (max-width:767px){
+    .container{
+        width: 100%;
+        overflow-x: hidden;
+    }
+        h1{
+         font-size: 30px;
+     }
+     #service{
+        visibility: hidden;
+    }
+    .nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+   .logo{
+       font-size: 25px;
+   }
+   .main{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .card{
+       background-color:white;
+       height: 250px;
+   }
+   #card-desc{
+       text-align: center;
+}
+.numanova{
+    display: flex;
+   flex-direction: column;
+
+}
+.about{
+    text-align: center;
+}
+#about{
+    font-size: 25px;
+}
+.info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.img{
+    background-color: white;
+   margin-top:140px ;
+}
+#alina{ font-size: 28px;
+}
+#info{
+    width: 75%;
+}
+.skills{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 10px;
+    justify-content: center;
+}
+#order{
+    font-size: 14px ;
+}
+#card{
+    width: 90%;
+}
+.card{
+    width: 70%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.header{
+    height: 900px;
+}
+
+}
